@@ -1,0 +1,101 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+	/* penyesuaian font top-wrapper */
+  .top-wrapper h1{
+		font-size:32px;
+	}
+
+	h2{
+	  font-size:20px;
+	}
+
+    .heading-company h2 {
+      font-size: 20px;
+    }
+
+    .sidebar h2 {
+      font-size: 20px;
+    }
+
+	.layanan{
+	  float:left;
+	  width:50%;
+	}
+	
+	.layanan p{
+	  padding-bottom:50px;
+	}
+	
+	.photo{
+	  float:left;
+	  width:50%;
+	}
+	
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+
+
+	/* menyesuaikan tombol daftar */
+
+	.btn{
+	width:100%;
+	}
+
+	/* penyesuaian top-wrapper */
+	.top-wrapper{
+		text-align:left;
+	}
+	
+	/* penyesuaian font top-wrapper */
+	.top-wrapper h1{
+		font-size:24px;
+		line-height:36px;
+	}
+
+    .logo-top {
+        width: 40px;
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+
+	.top-wrapper p{
+		font-size:14px;
+		line-height:20px;
+	}
+	
+	.layanan{
+		width:100%;
+	}
+	
+	.heading-company{
+		width: 100%;
+	}
+	
+	.heading-company h2{
+		text-align: center;
+	}
+	
+	.sidebar{
+		width: 100%;
+	}
+	
+	.photo{
+		width:100%;
+	}
+
+	footer{
+		text-align:center;
+}
+
+}

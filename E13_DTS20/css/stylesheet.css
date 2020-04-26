@@ -1,0 +1,317 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*---------------Tugas Mas Haznan---------------*/
+.top-wrapper {
+	padding: 180px 0 100px 0;
+	background-image: url(../images/background.jpg);
+	opacity: 0.7;
+	background-size: cover;
+	background-position: 50% 50%;
+	color: white;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  color: #fff;
+  margin-bottom: 1px;
+  font-size: 15px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.container a {
+	color: white;
+}
+
+.daftar {
+  background-color: #239b76;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+.logo-top {
+	width: 50px;
+	margin-left: 25px;
+	padding-top: 7px;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.header-left {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.header-left {
+  float: left;
+	
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 181, 204, 0.6);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.logo{
+	width: 50px;
+}
+
+
+/*-----Untuk Atur Logo kiri codingxpress-----*/
+.menu-icon {
+  width: 35px;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+/*-----Untuk menu atas kanan-----*/
+.header-right {
+	float: right;
+	margin-right: 10px;
+	color: #000;
+}
+.header-right {
+	float: right;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+	color: white;
+	background-color: #777777;
+	opacity: 0.5;
+}
+
+/*-----------------------awal tugas iwan-----------------------*/
+
+.profile-wrapper {
+  background-color: #fff;
+  padding-left: 5%;
+  padding-right: 5%;
+  Padding-bottom: 200px;
+}
+
+/*----------heading company----------*/
+
+.heading-company{
+  float: left;
+  padding-top: 80px;
+  width: 50%;
+}
+
+.heading-company h2{
+  font-size: 40px;
+  color: #5f5d60;
+  margin-bottom: 15px;
+}
+
+.heading-company p{
+  font-size: 15px;
+  word-spacing:2 px;
+  text-align: justify;
+}
+
+/*----------sidebar----------*/
+
+.sidebar {
+  float: right;
+  padding-top: 80px;
+  width: 45%;
+  text-align:center;
+  overflow:hidden;
+}
+
+.sidebar h2 {
+   font-size: 40px;
+   color: #5f5d60;
+   margin-bottom: 15px;
+}
+
+.photo {
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+}
+
+.photo-struktur img {
+    width: 140px;
+}
+
+.photo-struktur p {
+    font-size:15px;
+    font-weight:bold;
+    top: 44%;
+    width: 100%;
+    color: black;
+}
+
+/*----------clearfix----------*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/*-----------------------akhir tugas iwan-----------------------*/
+
+/*-----------------------awal tugas kris-----------------------*/
+
+.layanan-wrapper {
+	padding-bottom: 30px;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+}
+
+.layanans{
+    margin-top: 50px;
+}
+
+.layanan {
+  float: left;
+  width: 25%;
+}
+
+.layanan-icon {
+  position: relative;
+  object-fit: cover; 
+  margin-top: 10px;
+}
+
+.layanan-icon p {
+	font-size: 25px;
+	word-spacing: 10px;
+}
+
+.txt-contents {
+	width: 80%;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 15px;
+	color: black;
+}
+
+/*-----------------------akhir tugas mas kris-----------------------*/
+
+/*-----------------------awal tugas mas joko-----------------------*/
+.heading h3 {
+  font-weight: normal;
+  color:#000;
+  margin-bottom: 15px;
+}
+
+.message-wrapper {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*----------Tombol Pesan Sekarang-------------*/
+
+/*-----Mas joko-footer-----*/
+footer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 181, 204, 0.6);
+}
+
+footer img {
+	margin-left: 25px;
+	width: 60px;
+}
+
+footer p {
+	margin-left: 25px;
+	color: #000;
+	font-size: 15px;
+	font-style: bold;
+}
+
+/*-----------------------akhir tugas mas joko-----------------------*/
